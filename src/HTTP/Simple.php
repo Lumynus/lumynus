@@ -4,6 +4,19 @@ namespace Lumynus\HTTP;
 
 class Simple
 {
+
+    /**
+     * Executa uma requisição HTTP de forma simples.
+     *
+     * @param string $url URL para a requisição.
+     * @param string $metodo Método HTTP (GET, POST, PUT, DELETE). Padrão: "GET".
+     * @param array $headers Cabeçalhos HTTP para a requisição.
+     * @param array|string $body Corpo da requisição, pode ser um array ou uma string.
+     *
+     * @return array Retorna um array associativo contendo:
+     *               - 'status_code' (int): Código de resposta HTTP.
+     *               - 'response' (string): Corpo da resposta ou mensagem de erro.
+     */
     public static function request(string $url, string $metodo = "GET", array $headers = [], array|string $body = ""): array
     {
         $metodos = ["GET", "POST", "PUT", "DELETE"];
