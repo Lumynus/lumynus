@@ -1,0 +1,24 @@
+# Dependências do Composer
+/vendor/
+composer.lock
+
+# Configurações do ambiente
+.env
+.env.local
+.env.*.local
+
+# Configurações do Editor
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos de cache e logs
+/.phpunit.result.cache
+/.cache/
+*.log
+.DS_Store
+Thumbs.db
+
+# Cobertura de testes
+/coverage/
+.phpunit.result.cache
