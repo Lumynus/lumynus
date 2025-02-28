@@ -1,0 +1,10 @@
+# Ignorar arquivos e pastas no Composer (export-ignore)
+.gitignore export-ignore
+.gitattributes export-ignore
+.github export-ignore
+.vscode export-ignore
+tests export-ignore
+docs export-ignore
+README.md export-ignore
+CHANGELOG.md export-ignore
+phpunit.xml export-ignore
