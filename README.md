@@ -13,7 +13,7 @@
 Para instalar a biblioteca **Lumynus**, utilize o **Composer**:
 
 ```bash
-composer require Lumynus/lumynus
+composer require lumynus/lumynus
 ```
 
 ---
@@ -27,10 +27,10 @@ composer require Lumynus/lumynus
 <?php
 require 'vendor/autoload.php';
 
-use Lumynus\Simple;
+use Lumynus\HTTP\Simple;
 
 // Exemplo de requisição GET para um endpoint público
-$response = Simple::request("https://jsonplaceholder.typicode.com/posts", "GET", [], []);
+$response = Simple::request("https://jsonplaceholder.typicode.com/posts", "GET");
 print_r($response);
 
 ```
@@ -41,7 +41,7 @@ print_r($response);
 <?php
 require 'vendor/autoload.php';
 
-use Lumynus\Simple;
+use Lumynus\HTTP\Simple;
 
 // Dados a serem enviados como JSON
 $data = [
@@ -65,7 +65,7 @@ print_r($response);
 <?php
 require 'vendor/autoload.php';
 
-use Lumynus\Simple;
+use Lumynus\HTTP\Simple;
 
 // Corpo da requisição em XML
 $xml = '<?xml version="1.0" encoding="UTF-8"?>
