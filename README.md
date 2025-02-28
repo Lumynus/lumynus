@@ -13,7 +13,7 @@
 Para instalar a biblioteca **Lumynus**, utilize o **Composer**:
 
 ```bash
-composer require riodev-weleny/Lumynus
+composer require Lumynus/lumynus
 ```
 
 ---
@@ -101,4 +101,4 @@ Email: fale@riodev.com.br
 
 Site: riodev.com.br
 
-GitHub: github.com/riodev-weleny
+GitHub: [https://github.com/Lumynus/lumynus]
