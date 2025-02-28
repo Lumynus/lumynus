@@ -1,7 +1,7 @@
 # 🌟 Lumynus
 
 [![PHP Version](https://img.shields.io/badge/PHP-%3E%3D7.4-blue)](https://www.php.net/)  
-[![Packagist Version](https://img.shields.io/packagist/v/riodev-weleny/Lumynus)](https://packagist.org/packages/riodev-weleny/Lumynus)  
+[![Packagist Version](https://img.shields.io/packagist/v/lumynus/Lumynus)](https://packagist.org/packages/lumynus/Lumynus)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Lumynus** é uma biblioteca PHP simples e leve para realizar requisições HTTP de forma descomplicada. Com ela, você pode facilmente enviar e receber dados de APIs, fazer requisições GET, POST, PUT, DELETE e muito mais, com suporte a cabeçalhos personalizados e diferentes tipos de conteúdo (JSON, XML, etc).
