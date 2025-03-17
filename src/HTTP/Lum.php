@@ -516,7 +516,6 @@ class Lum
             "Url"          =>  $this->url ?? "N/A",
             "VerifySSL"    => $this->verifySSL,
             "statusCode"   => $this->statusCode ?? "N/A",
-            "response"     => $this->response ?? "N/A",
             "error"        => $this->errorRequest ?? "N/A",
             "headers"      => $sanitizedHeaders,
             "lastRequest"  => $this->lastRequest ?? "N/A",
