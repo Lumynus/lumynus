@@ -5,7 +5,7 @@ namespace Lumynus\Regex;
 /**
  * Classe com expressões regulares para validar diferentes tipos de dados comuns.
  */
-class Requirements
+class Requeriments
 {
     // ==========================
     // 📌 Validações de Texto e Caracteres
